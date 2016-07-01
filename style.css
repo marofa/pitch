@@ -1,0 +1,142 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	font-family: verdana;
+	background: url('../img/homepage.jpg');
+	background-size: cover;
+}
+
+.container {
+	width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+	height: 800px;    
+}
+
+header h1{
+	color: #ff6666;
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	text-transform: lowercase;
+	float: left;
+	margin: 0px;
+}
+
+
+nav {
+	float: right;
+	padding: 5px 0px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    padding-right: 12px; 
+}
+
+header nav .border {
+	border: 1px solid black;
+	padding: 5px 12px;
+}
+
+header h3{
+	color: #323232;
+	text-transform: uppercase;
+	line-height: 10px;
+	font-size: 60px;
+	clear: both;	
+}
+
+header .product {
+	float: left;
+	margin: 0px 0px 0px 200px;
+	text-align: center;
+}
+
+header .desc{
+	color: #323232;
+	font-size: 20px;
+	text-align: center;
+	clear: both;
+	margin: 20px 0px 0px 120px;
+	
+}
+
+
+header .way {
+		color: #323232;
+		font-weight: bold;
+		font-size: 24px;
+		margin: 40px 0px 0px 370px;
+}
+
+header .pinkborder {
+	color: darkgray;
+	font-size: 20px;
+	height: 60px;
+	width: 360px;
+	border: 2px solid #ff6666;
+	float: left;
+	margin: 0px 0px 0px 360px;
+	padding: 10px 0px 0px 20px;
+}
+
+
+header .pinkbox {
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	height: 64px;
+	width: 190px;
+	background-color: #ff6666;
+	float: left;
+	margin: 0px;
+	padding: 10px 0px 0px 20px;
+}
+
+
+footer{
+	margin: 0px;
+	clear: both;
+	padding-top: 12px;
+}
+
+footer ul{
+	list-style-type: none;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer ul li{
+	display: inline-block;
+	padding-left: 10px; 
+	font-weight: bold;
+	font-size: 10px;
+}
+
+footer .foota {
+	margin-right: 270px;
+	float: left;
+    padding-left: 10px; 
+}
+
+
+footer .footb{
+	float: left;
+	display: inline-block;
+}
+
+.upper {
+	text-transform: uppercase;
+	}
+
+footer img {
+	height: 18px;
+}
